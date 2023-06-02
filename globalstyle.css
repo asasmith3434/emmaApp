@@ -1,0 +1,24 @@
+/* Bottom tab styles */
+.bottom-tab {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .bottom-tab a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+  }
+  
+  /* Adjust spacing for active link */
+  .bottom-tab a.active {
+    margin-bottom: -3px;
+    padding-bottom: 3px;
+    border-bottom: 3px solid #333;
+  }

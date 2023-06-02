@@ -1,0 +1,48 @@
+/* Contact page styles */
+body {
+    margin: 0;
+    padding-bottom: 60px; /* Add padding to avoid overlapping with the bottom tab */
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+  }
+  
+  button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Adjust spacing for active link */
+  .bottom-tab a.active {
+    margin-bottom: -3px;
+    padding-bottom: 3px;
+    border-bottom: 3px solid #333;
+  }
+  
