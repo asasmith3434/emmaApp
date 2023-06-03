@@ -1,0 +1,4 @@
+Category 1,IMG_7419.jpeg,Description of Category 1
+Category 2,IMG_7421.jpeg,Description of Category 2
+Category 3,IMG_7422.jpeg,Description of Category 3
+Category 4,IMG_7450.jpeg,Description of Category 4

@@ -1,0 +1,27 @@
+{
+  "name": "emma",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "build": "cd client && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asasmith3434/emmaApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asasmith3434/emmaApp/issues"
+  },
+  "homepage": "https://github.com/asasmith3434/emmaApp#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": "v16.14.0"
+  }
+}
